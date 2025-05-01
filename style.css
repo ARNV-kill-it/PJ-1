@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansation';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    /* background-color: grey; */
+}
+
+#nav {
+    background-color: #18230F;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+#nav h4 {
+    font-size: 20px;
+    color: white;
+}
+
+#nav i {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
