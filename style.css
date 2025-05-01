@@ -34,9 +34,21 @@ body {
 }
 
 #nav i {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     background-color: white;
     border-radius: 30px;
-    padding: 10px;
+    padding: 5px;
+}
+
+#txt {
+    width: 100%;
+    background-color: #27391C;
+}
+
+#txt h1 {
+    font-size: 4vw;
+    color: white;
+    padding: 50px 80px;
+    text-transform: uppercase;
 }
